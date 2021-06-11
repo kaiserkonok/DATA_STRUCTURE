@@ -4,10 +4,10 @@ def selection_sort(data):
         for j in range(i + 1, len(data)):
             if data[j] < data[min_index]:
                 min_index = j
-            if min_index != i:
-                temp = data[i]
-                data[i] = data[min_index]
-                data[min_index] = temp
+        if min_index != i:
+            temp = data[i]
+            data[i] = data[min_index]
+            data[min_index] = temp
 
 
 my_data = [4, 1, 2, 10, 20, 12, 11, 30]
