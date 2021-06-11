@@ -4,7 +4,7 @@ def binary_search(data, length, find):
     while start <= end:
         mid = (start + end) // 2
         if data[mid] == find:
-            return mid
+            return f"Data Found at index {mid}"
         elif find > data[mid]:
             start = mid + 1
         else:
