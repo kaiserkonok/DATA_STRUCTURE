@@ -15,6 +15,6 @@ def binary_search(data, length, find):
 
 lists = [1, 2, 3, 4, 5]
 
-find = 9
+find = 3
 
 print(binary_search(lists, len(lists), find))
