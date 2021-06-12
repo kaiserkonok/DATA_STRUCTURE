@@ -1,4 +1,4 @@
-# Insertion algorithm with python
+# Insertion sort algorithm with python
 def insertion_sort(data):
     for i in range(1, len(data)):
         j = i
