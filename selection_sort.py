@@ -15,3 +15,5 @@ my_data = [4, 1, 2, 10, 20, 12, 11, 30]
 selection_sort(my_data)
 
 print(my_data)
+
+print(my_data)
