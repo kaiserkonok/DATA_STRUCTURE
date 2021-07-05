@@ -16,3 +16,4 @@ selection_sort(my_data)
 
 print(my_data)
 
+print("Hello world")
